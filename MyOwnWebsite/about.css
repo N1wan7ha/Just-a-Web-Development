@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  background-image: url('3409297.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size:auto;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #9b9b9b;
+}
+
+.services
+{
+  color: black;
+}
+
+h3{
+  color: #007bff;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: #bbbbbb;
+}
+
+/* Header Styles */
+header {
+  background-color: #3f2afc3d;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Project Section Styles */
+.projects {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Services Section Styles */
+.services {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Animation Section Styles */
+.animation-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  position: relative;
+  animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+/* Clients Section Styles */
+.clients {
+  padding: auto;
+  text-align: center;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Links Section Styles */
+.links {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section Styles */
+.contact {
+  padding: 50px 0;
+  text-align: center;
+}

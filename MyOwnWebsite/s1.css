@@ -1,0 +1,124 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('3409297.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size:auto;
+    background-position:0%;
+    background-repeat: repeat;
+  }
+  header {
+    background-color: rgba(92, 135, 253, 0.849); /* Adding transparency to the header background */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: larger;
+  }
+  nav {
+    background-color: rgba(3, 70, 194, 0.5); /* Adding transparency to the navigation background */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 20px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  nav a:hover {
+    color: #ccc;
+  }
+  section {
+    padding: 20px;
+    background-color: rgba(135, 133, 241, 0); /* Adding transparency to the section background */
+    color: rgb(158, 247, 242);
+  }
+  footer {
+    background-color: rgba(3, 70, 194, 0.5); /* Adding transparency to the footer background */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* ___________________________________________________________ */
+  
+  
+  h1 {
+    text-align: left;
+  
+    color: 
+    #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 15px;
+    background-color: #0f4c5f;
+    border-bottom: 1px solid #4768d4;
+  }
+  
+  li:hover {
+    background-color: #001c46;
+  }
+  
+  li p {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  #listid{
+    color: black;
+  }
+  
+  
+  
+  /* Style for the header */
+  #h22 {
+    text-align: center;
+    margin-bottom: 30px;
+      color: #ffffff;
+  }
+  
+  /* Style for the contact info container */
+  .contact-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for section titles */
+  h2 {
+    color: #ffffff;
+  }
+  
+  /* Style for paragraphs */
+  p {
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* Style for links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Style for links on hover */
+  a:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+

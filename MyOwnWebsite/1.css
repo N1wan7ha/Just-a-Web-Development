@@ -1,0 +1,88 @@
+/* Combined CSS with Improved Colors */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('3409297.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(20, 49, 119, 0.9); /* Dark blue with transparency */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: larger;
+}
+
+nav {
+    background-color: rgba(3, 70, 194, 0.7); /* Blue with transparency */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White with transparency */
+    color: #333; /* Dark gray text */
+}
+
+footer {
+    background-color: rgba(3, 70, 194, 0.7); /* Blue with transparency */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional Styles for List */
+h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 15px;
+    background-color: #94ddff; /* Light blue */
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: #007bff; /* Darker blue on hover */
+}
+
+li p {
+    margin: 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+#listid{
+    color: black;
+    border-radius: 15px;
+    border: 1px solid #ddd;  
+}
